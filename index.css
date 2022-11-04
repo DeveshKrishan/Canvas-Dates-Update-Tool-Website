@@ -51,6 +51,16 @@ a {
     background-color: linear-gradient(93deg, #000000, #151414, #121212)
 }
 
+.content1 {
+    animation: fadeIn 3s;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
 .content {
     width: 100%;
     position: absolute;
@@ -58,6 +68,23 @@ a {
     transform: translateY(-50%);
     text-align: center;
     color: white;
+}
+
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.content1 h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.content1 p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+
 }
 
 .content h1{
@@ -69,8 +96,11 @@ a {
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
+    padding-left: 105px;
+    padding-right: 105px;
 
 }
+
 
 button {
     width: 200px;
