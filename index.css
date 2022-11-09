@@ -1,7 +1,16 @@
 body {
-    background: linear-gradient(93deg, #000000, #151414, #121212);
+    background-image: linear-gradient(black, rgb(80, 80, 80, .7), black), url(items/loop_bg.mp4);
     color: rgb(0, 0, 0);
 }
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: (black, rgb(80, 80, 80, .7), black);
+  }
 
 a {
     color: inherit;
@@ -113,4 +122,12 @@ button {
     background: white;
     color: #000000;
     cursor: pointer;
+}
+
+.dw_button{
+    transition: transform .2s;
+}
+
+.dw_button:hover{
+    transform: scale(1.2);
 }
